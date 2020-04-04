@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root{
+    --dark-blue:hsl(243, 87%, 12%);
+    --desaturated-blue:hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.links {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+.links > li {
+    margin-left: 30px;
+}
+.links > li > a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+.links > li > a:hover{
+    color: var(--desaturated-blue);
+}
+.header-img{
+height: 380px;
+margin-right: 50px;
+padding: 5px;
+}
+h1{
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+.header-text{
+    color: var(--dark-blue);
+    font-weight: 400;
+    font-size: 17px;
+}
+.email-input{
+    margin-top: 40px;
+    width: 60%;
+    height: 35px;
+    border-bottom: 1px solid var(--desaturated-blue);
+}
+.header-label {
+    color: var(--bright-blue);
+    font-weight: bold;
+    font-size: 25px;
+}
+.header-button {
+    height: 40px;
+    border: none;
+    background-color: var(--bright-blue);
+    width: 30%;
+    margin-left: 15px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header-button:hover{
+    background-color: var(--desaturated-blue);
+}
+.section-text{
+    background: var(--light-grayish-blue);
+}
+.div-section-img{
+    background: var(--light-grayish-blue);
+}
+.section-img{
+height: 380px;
+margin-right: 50px;
+padding: 5px;
+}
+.first-section {
+    margin-top: 100px;
+}
+.section-title{
+    font-size: 35px;
+}
+.section-text{
+    color: var(--dark-blue);
+    font-weight: 400;
+    font-size: 17px;
+}
+.section-button{
+    border: none;
+    background-color: var(--bright-blue);
+    height: 40px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+}
+.section-button:hover{
+background-color: var(--desaturated-blue);
+}
+.card {
+    background: #fff;
+    height: 150px;
+    margin-top: 15px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.quotes {
+    height: 15px;
+    padding: 10px;
+}
+.card-text{
+    font-size: 15px;
+    font-weight: 700;
+}
+.span-card{
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 20px;
+    color: var(--bright-blue);
+}
+.avatar {
+    height: 80px;
+    margin-right: 15px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+.small-text{
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 400;
+    color:var(--bright-blue)
+}
+.second-section{
+    background: var(--desaturated-blue);
+    margin-top: 70px;
+}
+.second-section h1 {
+    color: #fff;
+    font-size: 40px;
+}
+.second-section p {
+    color: #fff;
+    font-weight: 400;
+}
+.input {
+    margin-top: 40px;
+    margin-right: 250px;
+}
+.section-input{
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 35px;
+    border-bottom: 1px solid var(--desaturated-blue);
+    border:none;
+    width: 110%;
+}
+.section-label{
+    color: #fff;
+    font-weight: 700;
+      font-size: 35px;
+}
+.second-section button {
+border-radius: 3px;
+border: none;
+background: var(--bright-blue);
+margin-top: 12px;
+color: #fff;
+font-weight: 700;
+width: 40%;
+height: 35px;
+}
+footer{
+    background: var(--dark-blue);
+}
+.logo-footer {
+    height: 150px;
+    width: 150px;
+}
+.container-footer{
+    display: flex;
+    flex-direction: row;
+}
+ul {
+   list-style-type: none;
+   padding: 10px;
+   margin-left: 40px;
+}
+.footer-span {
+    color: #fff;
+    margin-left: 16px;
+}
+.links-footer{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.links-footer > li {
+    color: #fff;
+    padding: 5px;
+}
+.social-icons{
+    display: flex; 
+    margin-top: 100px;
+    color: #fff;
+    margin-left: 150px;
+}
+.social-icons > li {
+    margin-left: 10px;
+    padding: 3px;
+
+}
