@@ -24,3 +24,7 @@ Acesse em - https://insuresiteexample.netlify.com/
 4- To do list - "To do List" com as opções de listar, deletar, editar e adicionar tarefas.
 Techs: #Javascript #DOM, #CSS, #HTML, #LocalStorage
 Acesse em -  https://vanillajstodolist.netlify.com
+
+5- Fylo company landing page - Landing page fictícia para uma empresa de tecnológia e armazenamento de dados  
+Techs: #HTML,#CSS,#FLEXBOX  
+Acesse em - https://fylo-landing-page-layout.netlify.com/
