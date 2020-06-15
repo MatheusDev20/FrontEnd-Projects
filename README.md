@@ -1,4 +1,6 @@
-# Frontend-projects
+# Frontend-projects  
+![](https://miro.medium.com/max/820/1*Y4Td-XMRtuFAW_8CpO7KyA.png)
+
 **Pequenos projetos focados no aprendizado de tecnologias e melhores práticas pro Frontend, principalmente a tripice HTML,JS,CSS e técnicas de responsividade.
 Cada projeto está separado por um diretório diferente e hospedado na netlify.
 Este Readme é atualizado a cada novo projeto finalizado.
@@ -9,12 +11,10 @@ O Foco deste respositório é explorar conceitos básicos da frontend WEB, proje
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 1 - SIGN UP FORM - Criação de uma interface de cadastro (Formulário) responsivo e sua validação em Javascript
-Techs: #Javascript, #HTML, #CSS, #Responsividade
-Acesse em - https://sign-and-validation-form-example.netlify.com/
-
+Techs: #Javascript, #HTML, #CSS, #Responsividade  Acesse em - https://sign-and-validation-form-example.netlify.com/
 
 2 - Landing Page - Landing page adaptada do site oficial do Itunes.
-Techs: #Jquery, #HTML, #CSS, #Responsividade
+Techs: #Jquery, #HTML, #CSS, #Responsividade  
 Acesse em - https://mytunes-landing-page-copy.netlify.com
 
 3 - Insure Landing page - Landing page para um comercio fictício de seguro de vidas.
