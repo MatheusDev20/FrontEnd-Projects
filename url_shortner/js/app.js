@@ -1,8 +1,15 @@
 const form = document.getElementById('url-form');
-
-
+const ShareSection = document.getElementById('short-result')
+let url;
+let req;
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+    url = form['url-input'].value
+    req = {
+        url: url
+    }
+    shortLink(req);
+})
     const shortLink = (req) => {
         let finalLink;
         console.log('Fetching...')
@@ -14,16 +21,20 @@ form.addEventListener('submit', (e) => {
         }
     }).then(response => response.json()).then(json => {
         let hashid = json.hashid
-        finalLink = buildLink(hashid)
+        finalLink = `https://rel.ink/${hashid}`
+        console.log(finalLink)
+        createShortnedDiv(url,finalLink);
     })
-    return finalLink;
     }
-    const buildLink = (hashid) => {
-        return `https://rel.ink/${hashid}`
+
+    function createShortnedDiv(url,link) {
+        ShareSection.insertAdjacentHTML('afterbegin', `
+        <div class="result-div">
+        <span>${url}</span>
+        <div>
+        <span class="minified-link">${link}</span>
+        <button class="copy-button">Copy</button>
+        
+        </div> 
+        </div>`)
     }
-    const url = form['url-input'].value
-    let req = {
-        url: url
-    }
-    let result = shortLink(req);
-})
