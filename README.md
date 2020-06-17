@@ -29,7 +29,7 @@ Acesse em -  https://vanillajstodolist.netlify.com
 Techs: #HTML,#CSS,#FLEXBOX  
 Acesse em - https://fylo-landing-page-layout.netlify.com/   
 
-6- Página de Login animada com formulário responsivo.  
-**Techs**: #HTML, #CSS, #CSSGrid, #CSSFlexBox, #JavaScript   
-Acesse em 
+6 - Encurtador de URL - Página criada e integrada com API de Short-url https://www.rebrandly.com/  
+*Techs* HTML,CSS,JS.  
+Acesse em: https://url-shortner-app.netlify.app
 
