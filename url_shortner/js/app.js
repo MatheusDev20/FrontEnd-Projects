@@ -1,10 +1,15 @@
 const form = document.getElementById('url-form');
-const ShareSection = document.getElementById('short-result')
-let url;
+const ShareSection = document.getElementById('short-result');
+const shareLink = document.getElementById('share-link');
+const error = document.getElementById('error')
 let req;
+let url;
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     url = form['url-input'].value
+    if(url === '') {
+        error.style.display  = 'block';
+    }
     req = {
         url: url
     }
@@ -28,13 +33,15 @@ form.addEventListener('submit', (e) => {
     }
 
     function createShortnedDiv(url,link) {
+        if(url == ''){
+            return
+        }
         ShareSection.insertAdjacentHTML('afterbegin', `
         <div class="result-div">
         <span>${url}</span>
         <div>
         <span class="minified-link">${link}</span>
         <button class="copy-button">Copy</button>
-        
         </div> 
         </div>`)
     }
