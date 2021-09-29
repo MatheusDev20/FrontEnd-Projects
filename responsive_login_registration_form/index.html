@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in & Sign up Form</title>
+  <link rel="stylesheet" href='./styles.css' />
+</head>
+<body>
+  <main>
+    <div class="box">
+      <div class="inner-box">
+        <div class="forms-wrap">
+          <form class="sign-form" autocomplete="off">
+            <div class="logo">
+              <img src="./img/logo.png" alt="easyclass">
+              <h3>easyclass</h3>
+            </div>
+            <div class="heading">
+              <h2>Welcome Back</h2>
+              <h6>Not registered</h6>
+              <a href="#" class="toggle">Sign up</a>
+            </div>
+            
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input type="text" minlength="4"
+                class="input-field"
+                autocomplete="off"
+                required>
+                <label>Name</label>
+              </div>
+              <div class="input-wrap">
+                <input type="password" minlength="7"
+                class="input-field"
+                autocomplete="off"
+                required>
+                <label>Password</label>
+              </div>
+              <input type="submit" value="Sign In" class="sign-btn">
+              <p class="text">Forgotten yoru password or login details
+                <a href="#">Get help</a> Signing in
+              </p>
+            </div>
+          </form>
+          <form class="sign-up-form" autocomplete="off">
+            <div class="logo">
+              <img src="./img/logo.png" alt="easyclass">
+              <h3>easyclass</h3>
+            </div>
+            <div class="heading">
+              <h2>Get Started</h2>
+              <h6>Already have an acoount</h6>
+              <a href="#" class="toggle">Sign in</a>
+            </div>
+            
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input type="text" minlength="4"
+                class="input-field"
+                autocomplete="off"
+                required>
+                <label>Name</label>
+              </div>
+              <div class="input-wrap">
+                <input type="email" minlength="4"
+                class="input-field"
+                autocomplete="off"
+                required>
+                <label>email</label>
+              </div>
+              <div class="input-wrap">
+                <input type="password" minlength="7"
+                class="input-field"
+                autocomplete="off"
+                required>
+                <label>Password</label>
+              </div>
+              <input type="submit" value="Sign Up" class="sign-btn">
+              <p class="text">By Signing up i agree to the 
+                <a href="#">Terms of License </a>
+                and <a href="#">Privacy Policy</a>
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="carousel">
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
